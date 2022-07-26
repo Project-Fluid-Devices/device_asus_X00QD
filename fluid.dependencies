@@ -2,13 +2,23 @@
   {
     "repository":"mvaisakh/gcc-arm",
     "target_path":"prebuilts/gcc/linux-x86/arm/arm-eabi",
-    "branch":"master",
+    "branch":"gcc-master",
     "remote":"github"
   },
   {
     "repository":"mvaisakh/gcc-arm64",
     "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
-    "branch":"master",
+    "branch":"gcc-master",
     "remote":"github"
+  },
+  {
+    "remote":      "fluid-devices",
+    "repository":  "vendor_asus_X00QD",
+    "target_path": "vendor/asus/X00QD"
+  },
+  {
+    "remote":      "fluid-devices",
+    "repository":  "kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660"
   }
 ]
